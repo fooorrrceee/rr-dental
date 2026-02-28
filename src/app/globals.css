@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3f7cae;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #8ecae6;
+  --color-secondary-foreground: #09090b;
+  --color-background: #f7f5ed;
+  --color-foreground: #1c2833;
+
+  --color-muted: #e6ebf1;
+  --color-muted-foreground: #5a6b7c;
+
+  --color-accent: #78a2cc;
+  --color-accent-foreground: #ffffff;
+
+  --color-card: #ffffff;
+  --color-card-foreground: #1c2833;
+
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-muted);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    @apply antialiased font-sans;
+  }
+
+  /* UI UX Pro Max Principles */
+  button,
+  a {
+    @apply cursor-pointer transition-all duration-300;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

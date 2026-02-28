@@ -1,0 +1,148 @@
+{
+    "business": {
+        "name": "RR Dental Speciality Clinic",
+        "tagline": "Pediatric & Speciality Dental Clinic",
+        "location": {
+            "area": "R.S.Puram",
+            "city": "Coimbatore",
+            "country": "India",
+            "mapsUrl": "https://maps.google.com/?q=RR+Dental+Clinic+RS+Puram+Coimbatore"
+        },
+        "contact": {
+            "phone": "+91 95858 22338",
+            "whatsapp": "+91 95858 22338",
+            "email": "thiruprostho@hotmail.com"
+        }
+    },
+    "design": {
+        "theme": "light",
+        "primaryColor": "#5C89C1",
+        "secondaryColor": "#FAFAF9"
+    },
+    "hero": {
+        "eyebrow": "Pediatric Dental Clinic in Coimbatore",
+        "title": "State-of-the-Art Technology & Patient-Oriented Treatments",
+        "subtitle": "Providing highly personalised dental care tailored to the need of every patient in a relaxed and friendly environment to extend an enhanced experience.",
+        "ctaLabel": "Book an Appointment"
+    },
+    "services": [
+        {
+            "id": "child-dentistry",
+            "name": "Child Dentistry",
+            "description": "Specialized, gentle care for children, starting as early as six months of age.",
+            "isCore": true
+        },
+        {
+            "id": "orthodontics",
+            "name": "Orthodontics",
+            "description": "Correcting crowded or crooked teeth with braces and advanced aligners.",
+            "isCore": true
+        },
+        {
+            "id": "root-canal",
+            "name": "Root Canal Treatment",
+            "description": "Expert removal of infection to relieve severe pain and save your natural tooth.",
+            "isCore": true
+        },
+        {
+            "id": "implants",
+            "name": "Dental Implants",
+            "description": "Permanent artificial roots and crowns to replace missing teeth.",
+            "isCore": true
+        },
+        {
+            "id": "crowns-bridges",
+            "name": "Crowns and Bridges",
+            "description": "Custom caps and bridges to repair weak or broken teeth.",
+            "isCore": false
+        },
+        {
+            "id": "dentures",
+            "name": "Dentures",
+            "description": "Removable replacements for missing teeth and surrounding tissues.",
+            "isCore": false
+        },
+        {
+            "id": "maxillofacial",
+            "name": "Maxillofacial Prosthesis",
+            "description": "Rehabilitation of patients with defects or disabilities of the face and jaws.",
+            "isCore": false
+        },
+        {
+            "id": "tmj",
+            "name": "TMJ Treatment",
+            "description": "Therapy for jaw joint pain and associated muscle disorders.",
+            "isCore": false
+        }
+    ],
+    "team": [
+        {
+            "name": "Prof. Dr. V.R.Thirumurthy M.D.S.",
+            "role": "Consultant Prosthodontist",
+            "bio": "Consultant Prosthodontist from 1994. 25+ years of teaching and clinical experience.",
+            "specialties": [
+                "Prosthodontics",
+                "Maxillofacial Prosthesis",
+                "Dental Implants"
+            ]
+        },
+        {
+            "name": "Prof. Dr. S.Karthikeyani M.D.S.",
+            "role": "Consultant Pedodontist",
+            "bio": "Consultant Pedodontist from 2003. Over 16 years of teaching and clinical experience specializing in child dentistry.",
+            "specialties": [
+                "Child Dentistry",
+                "Pedodontics"
+            ]
+        }
+    ],
+    "testimonials": {
+        "heading": "Why patients trust us",
+        "enabledProviders": [
+            "google_reviews",
+            "lybrate",
+            "practo"
+        ],
+        "highlights": [
+            {
+                "metric": "25+ Years",
+                "description": "Of combined excellence and clinical experience."
+            },
+            {
+                "metric": "All Specialities",
+                "description": "All speciality treatments with consultant experts."
+            },
+            {
+                "metric": "Modern Care",
+                "description": "State-of-the-art technology and comfortable ambience."
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What is dentistry?",
+            "answer": "Dentistry is the diagnosis, treatment, and prevention of conditions, disorders, and diseases of the teeth, gums, mouth, and jaw. Often considered necessary for complete oral health, dentistry can have an impact on the health of your entire body."
+        },
+        {
+            "question": "What is a cavity?",
+            "answer": "A cavity is a small hole that forms inside the tooth because of tooth decay. Cavities are formed when plaque buildup on the outside of the tooth combines with sugars and starches in the food you eat. This produces an acid that can eat away the enamel on your tooth. If a cavity is left untreated, it can lead to more serious oral health problems."
+        },
+        {
+            "question": "At what age should I start taking my child to see the dentist?",
+            "answer": "The American Academy of Pediatric Dentistry (AAPD) recommends that children first see a dentist as early as six months of age and no later than one year of age. During this time, your child's baby teeth will be coming in and your dentist can examine the health of your child's first few teeth. After the first visit, be sure to schedule regular checkups every six months."
+        }
+    ],
+    "chatbot": {
+        "greeting": "Hi! I'm the virtual assistant for RR Dental Speciality Clinic. How can I help you today?",
+        "tone": "empathetic, professional, family-friendly, trust-building"
+    },
+    "form": {
+        "submitEndpoint": "https://formspree.io/f/YOUR_FORM_ID_HERE",
+        "successMessage": "Thank you for reaching out to RR Dental. We'll get back to you shortly."
+    },
+    "widgets": {
+        "googleReviews": "YOUR_GOOGLE_REVIEWS_WIDGET_ID",
+        "practo": "YOUR_PRACTO_WIDGET_ID",
+        "lybrate": "YOUR_LYBRATE_WIDGET_ID"
+    }
+}
